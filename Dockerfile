@@ -1,5 +1,7 @@
 FROM python:3.6
 
+MAINTAINER shuns
+
 RUN set -x && \
     pip install 'Sphinx                    == 1.5.3'  \
                 'sphinx-autobuild          == 0.6.0'  \
